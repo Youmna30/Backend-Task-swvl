@@ -2,7 +2,6 @@ import notificationControllers from '../controllers/notification'
 
 module.exports = {
     notificationService: function (io) {
-        console.log("hereeee");
         global.sendNotification = io.of('/notification');
         sendNotification.on('connection', async function (socket) {
             var id = socket.handshake.query.id;
