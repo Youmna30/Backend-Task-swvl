@@ -16,7 +16,7 @@
 you can change.  
 7- npm run test to run test cases
 
-#run by using docker
+# run by using docker
 1- clone the project  
 2- cd to the project folder 
 3- you have to install docker and docker-compose on your device
